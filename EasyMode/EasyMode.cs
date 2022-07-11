@@ -5,7 +5,7 @@ namespace EasyMode
 {
     public class ModTest : MelonMod
     {
-        //Redefines Backpack tile gain to be flatter and more difficult early game
+        //Redefines Backpack tile gain to be faster in the early game
         [HarmonyPatch(typeof(Player), "Start")]
         class TileLevelUpCountPatch
         {
@@ -22,7 +22,7 @@ namespace EasyMode
             }
         }
 
-        //Limits the the amount of items you can take to 5
+        //Bumps the the amount of items you can take to 5
         [HarmonyPatch(typeof(GameManager), nameof(GameManager.ChangeItemsAllowedToTake))]
         class ItemsAllowedToTakePatch
         {
