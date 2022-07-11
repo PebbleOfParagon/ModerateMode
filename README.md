@@ -3,10 +3,10 @@
 A simple mod for [Backpack Hero](https://store.steampowered.com/app/1970580/Backpack_Hero/). With the goal of making the game less difficult but still fair.
 
 ### Tweaks
-* 20 starting max HP
-* Base 4 AP
+* 50 starting max HP
+* Base 5 AP
 * Increases items avalible after battle from 3 to 5
-* Increases the speed you gain new backpack slots
+* Increases the rate you gain new backpack slots
 
 ## Getting Started
 
