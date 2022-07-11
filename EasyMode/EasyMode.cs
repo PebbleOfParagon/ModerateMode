@@ -74,7 +74,7 @@ namespace EasyMode
             static void Postfix(ref Status __instance)
             {
                 if (!startNewOrMatt) return;
-                UnityEngine.Object.FindObjectOfType<Player>().stats.maxHealth = 50;
+                UnityEngine.Object.FindObjectOfType<Player>().stats.maxHealth = 70;
                 startNewOrMatt = false;
                 __instance.ClampHealth();
             }
