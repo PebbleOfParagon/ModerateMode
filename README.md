@@ -5,7 +5,7 @@ A simple mod for [Backpack Hero](https://store.steampowered.com/app/1970580/Back
 ### Tweaks
 * 50 starting max HP
 * Base 5 AP
-* Increases items avalible after battle from 3 to 5
+* Increases items avalible after battle from 3 to Unlimited
 * Increases the rate you gain new backpack slots
 
 ## Getting Started
