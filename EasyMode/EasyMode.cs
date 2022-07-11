@@ -22,7 +22,7 @@ namespace EasyMode
             }
         }
 
-        //Bumps the the amount of items you can take to 5
+        //Bumps the the amount of items you can take to 5 making them unlimited
         [HarmonyPatch(typeof(GameManager), nameof(GameManager.ChangeItemsAllowedToTake))]
         class ItemsAllowedToTakePatch
         {
