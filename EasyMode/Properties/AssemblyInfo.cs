@@ -1,4 +1,4 @@
-﻿using HardMode;
+﻿using EasyMode;
 using MelonLoader;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -9,11 +9,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HardMode")]
+[assembly: AssemblyTitle("EasyMode")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HardMode")]
+[assembly: AssemblyProduct("EasyMode")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -39,5 +39,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-[assembly: MelonInfo(typeof(ModTest), "HardMode", "1.0.0", "tytyereal")]
+[assembly: MelonInfo(typeof(ModTest), "EasyMode", "1.0.0", "tytyereal")]
 [assembly: MelonGame("", "")]
