@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using MelonLoader;
 
-namespace HardMode
+namespace EasyMode
 {
     public class ModTest : MelonMod
     {
@@ -13,7 +13,7 @@ namespace HardMode
             { //Standard Level Rewards: 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1
                 int[] newRewards =
                 {
-                    3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3
+                    5, 5, 5, 5, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1
                 };
                 for (int i = 0; i < __instance.chosenCharacter.levelUps.Count; ++i)
                 {
@@ -22,7 +22,7 @@ namespace HardMode
             }
         }
 
-        //Limits the the amount of items you can take to 2
+        //Limits the the amount of items you can take to 5
         [HarmonyPatch(typeof(GameManager), nameof(GameManager.ChangeItemsAllowedToTake))]
         class ItemsAllowedToTakePatch
         {
@@ -30,19 +30,19 @@ namespace HardMode
             {
                 if (__instance.numOfItemsAllowedToTake == 3)
                 {
-                    __instance.numOfItemsAllowedToTake = 2;
+                    __instance.numOfItemsAllowedToTake = 5;
                 }
                 return true;
             }
         }
 
-        //Limits your AP to 2
+        //Bumps your AP to 5
         [HarmonyPatch(typeof(Player), "Start")]
         class ApChangePatch
         {
             static void Postfix(ref Player __instance)
             {
-                __instance.APperTurn = 2;
+                __instance.APperTurn = 5;
             }
         }
 
@@ -67,14 +67,14 @@ namespace HardMode
             }
         }
 
-        //Sets Max health to 20 if starting a new run
+        //Sets Max health to 50 if starting a new run
         [HarmonyPatch(typeof(Status), "Start")]
         class MaxHpPatch
         {
             static void Postfix(ref Status __instance)
             {
                 if (!startNewOrMatt) return;
-                UnityEngine.Object.FindObjectOfType<Player>().stats.maxHealth = 20;
+                UnityEngine.Object.FindObjectOfType<Player>().stats.maxHealth = 50;
                 startNewOrMatt = false;
                 __instance.ClampHealth();
             }
