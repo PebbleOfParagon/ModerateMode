@@ -25,6 +25,9 @@ A simple mod for [Backpack Hero](https://store.steampowered.com/app/1970580/Back
 * 1.0.0
 	* Initial Release
 
+* 1.1.0
+	* Tweaks to Tile Unlock Rate
+
 ## Known Bugs
 
 ## License
