@@ -13,7 +13,7 @@ namespace EasyMode
             { //Standard Level Rewards: 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1
                 int[] newRewards =
                 {
-                    5, 5, 5, 5, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1
+                    5, 5, 5, 5, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1
                 };
                 for (int i = 0; i < __instance.chosenCharacter.levelUps.Count; ++i)
                 {
