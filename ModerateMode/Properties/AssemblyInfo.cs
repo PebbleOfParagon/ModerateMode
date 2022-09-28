@@ -1,4 +1,4 @@
-﻿using EasyMode;
+﻿using ModerateMode;
 using MelonLoader;
 using System.Reflection;
 using System.Runtime.CompilerServices;
