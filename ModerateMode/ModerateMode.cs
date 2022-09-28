@@ -30,7 +30,7 @@ namespace ModerateMode
             {
                 if (__instance.numOfItemsAllowedToTake == 3)
                 {
-                    __instance.numOfItemsAllowedToTake = 5;
+                    __instance.numOfItemsAllowedToTake = 4;
                 }
                 return true;
             }
