@@ -1,14 +1,10 @@
-# Easy Mode - Forked from tytyereal
+# Moderate Mode - Forked from hobbzey who forked from tytyereal
 
 A simple mod for [Backpack Hero](https://store.steampowered.com/app/1970580/Backpack_Hero/). With the goal of making the game less difficult but still fair.
 
 ### Tweaks
-* 70 starting max HP
-* Base 5 AP
-* Increases items avalible after battle from 3 to Unlimited
-* Increases the rate you gain new backpack slots
-
-## Getting Started
+* Increases items avalible after battle from 3 to 4
+* Slightly increases the rate you gain new backpack slots
 
 ### Dependencies
 
@@ -24,9 +20,6 @@ A simple mod for [Backpack Hero](https://store.steampowered.com/app/1970580/Back
 
 * 1.0.0
 	* Initial Release
-
-* 1.1.0
-	* Tweaks to Tile Unlock Rate
 
 ## Known Bugs
 
