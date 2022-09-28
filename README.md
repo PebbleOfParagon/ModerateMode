@@ -3,7 +3,7 @@
 A simple mod for [Backpack Hero](https://store.steampowered.com/app/1970580/Backpack_Hero/). With the goal of making the game less difficult but still fair.
 
 ### Tweaks
-* Increases items avalible after battle from 3 to 4
+* Increases items choice after battle from 3 to 4
 * Slightly increases the rate you gain new backpack slots
 
 ### Dependencies
